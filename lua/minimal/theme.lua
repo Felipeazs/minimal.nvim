@@ -19,7 +19,7 @@ M.base = {
     Boolean = { fg = colors.orange, style = config.italic_booleans },
 
     Character    = { fg = colors.yellow },
-    ColorColumn  = { bg = colors.black1 },
+    ColorColumn  = { bg = "NONE" },
     Comment      = { fg = colors.comment, style = config.italic_comments },
     Conceal      = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
     Conditional  = { fg = colors.red_key_w },
@@ -50,7 +50,7 @@ M.base = {
 
     Float       = { fg = colors.orange },
     FloatBorder = { fg = colors.gray2, bg = "NONE" },
-    FoldColumn  = { fg = colors.black1, bg = "NONE" },
+    FoldColumn  = { fg = colors.gray2, bg = "NONE" },
     Folded      = { fg = colors.white, bg = colors.gray },
     Function    = { fg = colors.green_func },
 
