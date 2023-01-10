@@ -50,7 +50,7 @@ M.base = {
 
     Float       = { fg = colors.orange },
     FloatBorder = { fg = colors.gray2, bg = "NONE" },
-    FoldColumn  = { fg = colors.black1 },
+    FoldColumn  = { fg = colors.black1, bg = "NONE" },
     Folded      = { fg = colors.white, bg = colors.gray },
     Function    = { fg = colors.green_func },
 
