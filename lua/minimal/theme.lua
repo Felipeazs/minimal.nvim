@@ -301,10 +301,10 @@ M.plugins = {
     DiagnosticFloatingInfo  = { fg = colors.yellow },
     DiagnosticFloatingWarn  = { fg = colors.orange_wr },
 
-    DiagnosticSignError = { fg = colors.red_err, bg = colors.line_bg },
-    DiagnosticSignHint  = { fg = colors.blue_type, bg = colors.line_bg },
-    DiagnosticSignInfo  = { fg = colors.yellow, bg = colors.line_bg },
-    DiagnosticSignWarn  = { fg = colors.orange_wr, bg = colors.line_bg },
+    DiagnosticSignError = { fg = colors.red_err, bg = "NONE" },
+    DiagnosticSignHint  = { fg = colors.blue_type, bg = "NONE" },
+    DiagnosticSignInfo  = { fg = colors.yellow, bg = "NONE" },
+    DiagnosticSignWarn  = { fg = colors.orange_wr, bg = "NONE" },
 
     DiagnosticUnderlineError = { style = 'underline' },
     DiagnosticUnderlineHint  = { style = 'underline' },
