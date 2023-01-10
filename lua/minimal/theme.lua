@@ -62,7 +62,7 @@ M.base = {
     Keyword = { fg = colors.red_key_w,  style = config.italic_keywords },
 
     Label  = { fg = colors.red_key_w },
-    LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+    LineNr = { fg = colors.line_fg, bg = "NONE" },
 
     Macro         = { fg = colors.red_key_w,  style = config.italic_keywords },
     MatchParen    = { fg = colors.white1, bg = colors.black },
