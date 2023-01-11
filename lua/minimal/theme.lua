@@ -39,7 +39,7 @@ M.base = {
     DiffDelete  = { fg = colors.red_key_w, bg = config.transparent_background and 'NONE' or colors.bg },
     DiffRemoved = { fg = colors.red_key_w, bg = config.transparent_background and 'NONE' or colors.bg },
     DiffText    = { fg = colors.white1, bg = config.transparent_background and 'NONE' or colors.bg },
-    DiffFile    = { fg = colors.pink, bg = "NONE"  },
+    DiffFile    = { fg = colors.pink, bg = config.transparent_background and 'NONE' or colors.bg },
     -- DiffIndexLine     = { fg = colors.gray3 },
 
 
